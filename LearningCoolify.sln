@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCoolify", "LearningCoolify\LearningCoolify.csproj", "{B066BC13-FBD1-4B7E-913C-928DF5D4289D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7CC7C5A8-2ED2-4620-A27C-617928CF6258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B066BC13-FBD1-4B7E-913C-928DF5D4289D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B066BC13-FBD1-4B7E-913C-928DF5D4289D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B066BC13-FBD1-4B7E-913C-928DF5D4289D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B066BC13-FBD1-4B7E-913C-928DF5D4289D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC7C5A8-2ED2-4620-A27C-617928CF6258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC7C5A8-2ED2-4620-A27C-617928CF6258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC7C5A8-2ED2-4620-A27C-617928CF6258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC7C5A8-2ED2-4620-A27C-617928CF6258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7E33504-CA1C-4BB0-B7D4-0ABD61ADF68A}
+	EndGlobalSection
+EndGlobal

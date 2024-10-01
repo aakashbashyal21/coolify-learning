@@ -3,6 +3,14 @@ version: '3.4'
 services:
   learningcoolify:
     image: ${DOCKER_REGISTRY-}learningcoolify
+    healthcheck:
+      test:
+        - CMD
+        - curl
+        - 'http://127.0.0.1:8080'
+      timeout: 5s
+      interval: 5s
+      retries: 10
     build:
       context: .
       dockerfile: LearningCoolify/Dockerfile
